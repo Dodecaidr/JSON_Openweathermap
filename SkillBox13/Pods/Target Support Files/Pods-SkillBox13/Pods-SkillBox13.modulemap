@@ -1,0 +1,6 @@
+framework module Pods_SkillBox13 {
+  umbrella header "Pods-SkillBox13-umbrella.h"
+
+  export *
+  module * { export * }
+}
