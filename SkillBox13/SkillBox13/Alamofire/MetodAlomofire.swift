@@ -26,7 +26,7 @@ class MetodAlomofire: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        NewStandartMetod().loadCatigories { list in
+        AlomofireMetod().loadAlomaCatigories { list in
             self.arrayAloma = list
             DispatchQueue.main.async {
                 
